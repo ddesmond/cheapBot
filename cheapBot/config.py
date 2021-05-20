@@ -1,4 +1,5 @@
-token = ''
+token = 'ODEyNjMwMDYxMDY4MzIwNzc5.YDDiuA.AELcbCDbljRYYmnAYPMtugmk3Ls'
+
 
 # Memes
 allowed_meme_channels = ['cheap-memes']
@@ -12,7 +13,6 @@ rpc_url = "https://node.cheapeth.org/rpc"
 # Twitter 
 allowed_twitter_channels = ['free-cheapeth-sold-out']
 
-
 # Party
 allowed_party_channels = ['general', 'crowdsale', 'development', 'rewards', 'speculation', 'non-english', 'cheap-memes', 'zombie-town', 'uses-of-cheapeth', 'hiring', 'website', 'marketing']
 
@@ -24,3 +24,6 @@ allowed_del_wallet_addr_channels = ['development', 'rewards', 'resources', 'feed
 
 # Clear channel (of wallet addresses)
 allowed_clear_channel_channels = ['general', 'development', 'rewards', 'speculation']
+
+# Bounty channels
+allowed_bounty_channels = ['general', 'development', 'rewards']

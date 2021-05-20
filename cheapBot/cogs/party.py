@@ -37,6 +37,9 @@ class Party(commands.Cog):
 
   @commands.command()
   async def party(self, ctx: commands.Context):
+    """
+    Get on the party train! Type party for more party!
+    """
     get_userid = ctx.message.author
     #print(get_userid)
     if ctx.author.bot:
